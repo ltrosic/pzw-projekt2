@@ -1,0 +1,194 @@
+body {
+  padding: 0;
+  margin: 0;
+  background: #f2f6e9;
+}
+/*--- navigation bar ---*/
+.navbar {
+  background:#6ab446;
+}
+.nav-link,
+.navbar-brand {
+  color: #fff;
+  cursor: pointer;
+}
+.nav-link {
+  margin-right: 1em 
+}
+.nav-link:hover {
+  color: #000;
+}
+.navbar-collapse {
+  justify-content: flex-end;
+}
+.header {
+  background-image: url('/static/css/img/GABRE5.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+  
+
+  .description {
+    left: 50%;
+    position: absolute;
+    top: 56%;
+    transform: translate(-50%, -55%);
+    text-align: center;
+  }
+  .description h1 {
+    color: #6ab446;
+  }
+  .description p {
+    color: #fff;
+    font-size: 2.3rem;
+    line-height: 1.5;
+  }
+
+  .description2 {
+    text-align: center;
+  }
+  .description2 h1 {
+    color: #6ab446;
+  }
+
+  .description3 p {
+    text-align: center;
+    width:1200px;
+    margin: 0px auto;
+    color: black;
+    background: rgba(154, 211, 157, 0.514);
+    font-size: 1.3rem;
+    line-height: 1.5;
+  }
+
+
+
+  .features {
+    margin: 4em auto;
+    padding: 1em;
+    position: relative;
+  }
+  .feature-title {
+    color: #333;
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+  .features img {
+    -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+    margin-bottom: 16px;
+  }
+
+  
+    
+  
+  .description5 h1 {
+    color: #6ab446;
+    text-align: center;
+  }
+
+  .features .form-control,
+.features input {
+    border-radius: 0;
+}
+
+.features .btn {
+  background-color: #589b37;
+  border: 1px solid #589b37;
+  color: #fff;
+  margin-top: 20px;
+}
+
+.features .btn:hover {
+  background-color: #333;
+  border: 1px solid #333;
+}
+.page-footer {
+    background-color: rgb(17, 16, 16);
+    color: #ccc;
+    padding: 60px 0 30px;
+  }
+  
+  .footer-copyright {
+    color: #666;
+    padding: 40px 0;
+  }
+  @media (max-width: 575.98px) {
+
+    .description {
+      left: 0;
+      padding: 0 15px;
+      position: absolute;
+      top: 10%;
+      transform: none;
+      text-align: center;
+    }
+    
+    .description h1 {
+      font-size: 2em;
+    }
+    
+    .description p {
+      font-size: 1.2rem;
+    }
+    
+    .features {
+      margin: 0;
+    }
+
+    /* The grid: Four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+}
+
+/* Style the images inside the grid */
+.column img {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.column img:hover {
+  opacity: 1;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* The expanding image container (positioning is needed to position the close button and the text) */
+.container {
+  position: relative;
+  display: none;
+}
+
+/* Expanding image text */
+#imgtext {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  color: white;
+  font-size: 20px;
+}
+
+/* Closable button inside the image */
+.closebtn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+}
+
+  
+  }

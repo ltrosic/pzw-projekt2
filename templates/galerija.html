@@ -1,0 +1,60 @@
+{% extends 'baza.html' %}
+
+{% block content %}
+
+<div class="description5">
+    <h1 id="Galerija">Galerija slika</h1>
+    </div> 
+
+<!-- Galerija -->
+<div class="row">
+<div class="column">
+<img src="/static/css/img/galerija1.jpg" alt="Slika 1" onclick="myFunction(this);">
+</div>
+<div class="column">
+<img src="/static/css/img/galerija2.jpg" alt="Slika 2" onclick="myFunction(this);">
+</div>
+<div class="column">
+<img src="/static/css/img/galerija3.jpg" alt="Slika 3" onclick="myFunction(this);">
+</div>
+<div class="column">
+<img src="/static/css/img/galerija4.jpg" alt="Slika 4" onclick="myFunction(this);">
+</div>
+</div>
+
+<!-- The expanding image container -->
+<div class="container">
+<!-- Close the image -->
+<span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+
+<!-- Expanded image -->
+<img id="expandedImg" style="width:100%">
+
+<!-- Image text -->
+<div id="imgtext"></div>
+</div>
+
+<!---- footer stranice (Dno)-->
+</div><footer class="page-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-8 col-sm-12">
+        <h6 class="text-uppercase font-weight-bold">Gdje se nalaze Pakoštane?</h6>
+        <p id="Rezervacije">Pakoštane su malo dalmatinsko mjesto smješteno u samom središtu jadranske obale i jedinstvenom položaju između mora i Vranskog jezera. Četiri nacionalna parka (Kornati, Krka, Paklenica i Plitvička jezera) i dva parka prirode (Telašćica i Vransko jezero) jedinstvene ljepote okružuju Pakoštane..</p>
+        <a href="https://www.gabre.hr/">A ovo je naša original stranica.</a>
+      </div>
+      <div class="col-lg-4 col-md-4 col-sm-12">
+        <h6 class="text-uppercase font-weight-bold">Kontakt</h6>
+        <p>
+          OBALA KRALJA PETRA KREŠIMIRA 40,
+         23211 PAKOŠTANE, HRVATSKA
+         Radno vrijeme
+         <br/> OD 07:00 DO 02:00
+        <br/>INFO@GABRE.HR
+        <br/>+385 (0)23 381 003
+      </div>
+    </div>
+    <div class="footer-copyright text-center">© 2020 Copyright: TrosicLuka.com</div>
+  </footer> 
+
+{% endblock %}
