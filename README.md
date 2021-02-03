@@ -19,18 +19,18 @@ Stranica služi za upoznavanje sa samim restoranom te rezervacije termina.
 3. pristupit terminalu (cmd,powershell...)
 
 ## Pa krenimo:
-C:\Users/Troxy> python --version 
-C:\Users\Troxy> py -m pip --version
-C:\Users\Troxy> py -m pip install -U pip
+### C:\Users/Troxy> python --version 
+### C:\Users\Troxy> py -m pip --version
+### C:\Users\Troxy> py -m pip install -U pip
 
 ## Kreiranje virtualne okoline 
 
-C:\Users/Documents/projekt2> py –m venv virtualnaokolina
-C:\Users/Documents/projekt2> virtualnaokolina/Scripts/Activate.bat
-(virtualnaokolina) C:\Users/Documents/projekt2>pip install flask
-(virtualnaokolina) C:\Users/Documents/projekt2>py -m pip install -U pip
-(virtualnaokolina) C:\Users/Documents/projekt2> set FLASK_APP=app.py
-(virtualnaokolina) C:\Users/Documents/projekt2> flask run
+### C:\Users/Documents/projekt2> py –m venv virtualnaokolina
+### C:\Users/Documents/projekt2> virtualnaokolina/Scripts/Activate.bat
+### (virtualnaokolina) C:\Users/Documents/projekt2>pip install flask
+### (virtualnaokolina) C:\Users/Documents/projekt2>py -m pip install -U pip
+### (virtualnaokolina) C:\Users/Documents/projekt2> set FLASK_APP=app.py
+### (virtualnaokolina) C:\Users/Documents/projekt2> flask run
 
 
 
